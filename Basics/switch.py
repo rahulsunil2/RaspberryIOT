@@ -3,6 +3,8 @@ import time
 sw.setmode(sw.BOARD)
 sw.setwarnings(False)
 
+#Switch
+
 sw_pin=5
 led_pin=7
 sw.setup(sw_pin,sw.IN,pull_up_down=sw.PUD_UP)
