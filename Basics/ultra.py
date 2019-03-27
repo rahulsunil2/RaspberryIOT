@@ -10,7 +10,7 @@ ECHO = 18
 print ("Distance measurement in progress")
 
 GPIO.setup(TRIG,GPIO.OUT)
-GPIO.setup(ECHO,GPIO.OUT)
+GPIO.setup(ECHO,GPIO.IN)
 
 while True:
     GPIO.output(TRIG,False)
